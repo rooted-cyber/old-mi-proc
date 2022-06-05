@@ -1,0 +1,38 @@
+{
+    "name": "Der bot",
+    "description": "Hapere",
+    "logo": "",
+    "keywords": [
+        "gehehsh"
+    ],
+    "repository": "https://var.com/",
+    "success_url": "https://combat",
+    "stack": "heroku-20",
+    "env": {
+        "BOT_NAME": {
+            "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
+            "value": "hi",
+            "required":  true
+        }
+    },
+    "formation": {
+      "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "buildpacks": [
+    {
+        "url":"heroku/python"
+    },
+    {
+        "url":"heroku-community/apt"
+    },
+    {
+        "url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+        "url":"https://github.com/stevo550/buildpack-slug-cleaner"
+    }
+    ]
+}
