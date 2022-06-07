@@ -1,4 +1,8 @@
-pip install megasdkrestclient
-wget -O a.sh https://gist.githubusercontent.com/rooted-cyber/2996bb627f1f8ee144d3e3104ca421b7/raw/7c6294ef2a1138ca58d78ec70e1ceb6a985094a1/mirror
-chmod 777 a.sh
-./a.sh
+wget -O req.sh https://gist.githubusercontent.com/rooted-cyber/aab363b8a853e7eb0eb0343c82ad0abd/raw/751d857d9979e30e5a872cf0dc8af73a0633d638/req
+bash req.sh
+git clone -b heroku https://github.com/anasty17/mirror-leech-telegram-bot
+cd m*t*t
+wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
+wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
+ls
+bash start.sh
