@@ -18,4 +18,5 @@ wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/m
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
 ls
 chmod 777 -R *
+pip3 install megarest
 bash start.sh
