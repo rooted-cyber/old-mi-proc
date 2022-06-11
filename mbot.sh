@@ -2,9 +2,12 @@
 #bash req.sh
 #git clone -b heroku https://github.com/anasty17/mirror-leech-telegram-bot
 #cd m*t*t
+pip install --upgrade pip
 wget -O ar.txt https://raw.githubusercontent.com/harshpreets63/Mirror-Bot/master/requirements.txt
 pip3 install -r ar.txt
 pip3 install psycopg2-binary
+pip3 uninstall pyrogram -y
+pip3 install -U pyrogram
 git clone https://github.com/harshpreets63/Mirror-Bot
 cd M*t
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
