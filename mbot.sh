@@ -11,6 +11,7 @@ pip3 install fsplit
 pip3 uninstall pyrogram -y
 pip3 install -U pyrogram
 pip2 install fsplit
+pip3 install yt_dlp
 git clone https://github.com/https-github-com-rooted-cyber/Mirror-Bot-ha
 cd M*t*ha
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
