@@ -6,12 +6,15 @@ pip install --upgrade pip
 wget -O ar.txt https://raw.githubusercontent.com/harshpreets63/Mirror-Bot/master/requirements.txt
 pip3 install -r ar.txt
 pip3 install psycopg2-binary
-pip3 install -U fsplit
+pip install fsplit
+pip3 install fsplit
 pip3 uninstall pyrogram -y
 pip3 install -U pyrogram
+pip2 install fsplit
 git clone https://github.com/harshpreets63/Mirror-Bot
 cd M*t
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
 ls
+chmod 777 -R *
 bash start.sh
