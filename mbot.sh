@@ -4,6 +4,7 @@
 #cd m*t*t
 wget -O ar.txt https://raw.githubusercontent.com/harshpreets63/Mirror-Bot/master/requirements.txt
 pip3 install -r ar.txt
+pip3 install psycopg2-binary
 git clone https://github.com/harshpreets63/Mirror-Bot
 cd M*t
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
