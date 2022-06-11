@@ -6,6 +6,7 @@ pip install --upgrade pip
 wget -O ar.txt https://raw.githubusercontent.com/harshpreets63/Mirror-Bot/master/requirements.txt
 pip3 install -r ar.txt
 pip3 install psycopg2-binary
+pip3 install -U fsplit
 pip3 uninstall pyrogram -y
 pip3 install -U pyrogram
 git clone https://github.com/harshpreets63/Mirror-Bot
