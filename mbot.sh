@@ -14,7 +14,7 @@ pip2 install fsplit
 pip3 install yt_dlp
 git clone https://github.com/https-github-com-rooted-cyber/Mirror-Bot-ha
 cd M*t*ha
-wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cnh
+wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cnhm
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
 ls
 chmod 777 -R *
