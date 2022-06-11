@@ -11,7 +11,7 @@ pip3 install fsplit
 pip3 uninstall pyrogram -y
 pip3 install -U pyrogram
 pip2 install fsplit
-git clone https://github.com/harshpreets63/Mirror-Bot
+git clone https://github.com/https-github-com-rooted-cyber/Mirror-Bot-ha
 cd M*t
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
