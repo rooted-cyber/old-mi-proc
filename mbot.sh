@@ -9,4 +9,6 @@ ls
 chmod 777 -R *
 cp -Rf qBit*/conf*/qBit* /app/m*t*t
 pwd
+ls
+wget https://raw.githubusercontent.com/anasty17/mirror-leech-telegram-bot/heroku/heroku.yml
 bash start.sh
