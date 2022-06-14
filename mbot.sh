@@ -7,7 +7,7 @@ wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/m
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
 #ls
 chmod 777 -R *
-#cp -Rf qBit*/conf*/qBit* /app/m*t*t
+cp -Rf qBit*/conf*/qBit* /app/m*t*t
 #pwd
 #ls
 #wget https://raw.githubusercontent.com/anasty17/mirror-leech-telegram-bot/heroku/heroku.yml
