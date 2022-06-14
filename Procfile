@@ -1,1 +1,1 @@
-worker: bash mbot.sh
+web: bash mbot.sh
