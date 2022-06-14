@@ -1,1 +1,1 @@
-web: bash mbot.sh
+maruf: bash mbot.sh
