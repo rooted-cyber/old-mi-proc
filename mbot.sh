@@ -5,10 +5,10 @@ cd m*t*t
 pip install --upgrade pip
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
-ls
+#ls
 chmod 777 -R *
-cp -Rf qBit*/conf*/qBit* /app/m*t*t
-pwd
-ls
-wget https://raw.githubusercontent.com/anasty17/mirror-leech-telegram-bot/heroku/heroku.yml
+#cp -Rf qBit*/conf*/qBit* /app/m*t*t
+#pwd
+#ls
+#wget https://raw.githubusercontent.com/anasty17/mirror-leech-telegram-bot/heroku/heroku.yml
 bash start.sh
